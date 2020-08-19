@@ -57,7 +57,7 @@ public class HomePageActivity extends AppCompatActivity {
         OkHttpClient client=new OkHttpClient();
 
         Request request=new Request.Builder()
-                .url("https://api.openweathermap.org/data/2.5/weather?q="+Place+"&appid=a2e87d916f920ec7e522f3dbe0c6fef6&units=metric")
+                .url("https://api.openweathermap.org/data/2.5/weather?q="+Place+"&appid=YOURAPIKEYHERE&units=metric")
                 .get()
                 .build();
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
